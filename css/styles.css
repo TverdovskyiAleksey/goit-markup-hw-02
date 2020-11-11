@@ -1,0 +1,100 @@
+/*цвет основного текста#212121;*/
+/*цвет вторичного текста#757575;*/
+/*белый#FFFFFF;*/
+/*акцент#2196F3;*/
+/*цвет фона основной#E5E5E5;*/
+/*цвет фона темный#2F303A;*/
+/*вторичный цвет фона#F5F4FA;*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #fff;
+  color: #757575;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.logo-black {
+  color: #212121;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contacts-header .link {
+  color: #757575;
+}
+
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+  color: #2196f3;
+}
+
+.buttom {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-size: 24px;
+  padding: 12px 24px;
+  display: inline-block;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team .section-title {
+  color: #212121;
+}
+
+.section .section-title {
+  color: #212121;
+}
+
+.hero {
+  background-color: #2f303a;
+  height: 600px;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-link {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+  height: 255px;
+}
+
+.logo-white {
+  color: #ffffff;
+  text-decoration: none;
+}
+.address {
+  color: #ffffff;
+}
+
+.footer-address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
