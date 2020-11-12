@@ -47,6 +47,21 @@ ul {
   color: #2196f3;
 }
 
+/*hero*/
+
+.hero {
+  background-color: #2f303a;
+  height: 600px;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-link {
+  color: #ffffff;
+}
+
 .buttom {
   color: #ffffff;
   background-color: #2196f3;
@@ -69,18 +84,7 @@ ul {
   color: #212121;
 }
 
-.hero {
-  background-color: #2f303a;
-  height: 600px;
-}
-
-.hero-title {
-  color: #ffffff;
-}
-
-.hero-link {
-  color: #ffffff;
-}
+/*footer*/
 
 .footer {
   background-color: #2f303a;
