@@ -40,9 +40,20 @@
   color: #ffffff;
 }
 
-h1,
-h2 {
+header > a {
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
   visibility: hidden;
+}
+
+h2 {
+  color: #212121;
 }
 
 ul {
@@ -51,10 +62,6 @@ ul {
 
 ul p {
   color: #757575;
-}
-
-h3 {
-  color: #212121;
 }
 
 .footer {

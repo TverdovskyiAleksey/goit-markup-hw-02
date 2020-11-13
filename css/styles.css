@@ -11,18 +11,24 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
 }
-body {
-  background-color: #fff;
-  color: #757575;
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: #212121;
+
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-blue {
   color: #2196f3;
 }
 
-.logo-black {
-  color: #212121;
-  text-decoration: none;
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -31,6 +37,11 @@ ul {
 
 .site-nav .link {
   color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -40,14 +51,17 @@ ul {
 
 .contacts-header .link {
   color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .contacts-header .link:hover,
 .contacts-header .link:focus {
   color: #2196f3;
 }
-
-/*hero*/
 
 .hero {
   background-color: #2f303a;
@@ -56,15 +70,19 @@ ul {
 
 .hero-title {
   color: #ffffff;
-}
 
-.hero-link {
-  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .buttom {
   color: #ffffff;
   background-color: #2196f3;
+
+  font-weight: 700;
   font-size: 24px;
   padding: 12px 24px;
   display: inline-block;
@@ -72,19 +90,45 @@ ul {
   text-decoration: none;
 }
 
+.features-title {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.features .text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.activity-title,
+.team-title {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-member {
+  color: #212121;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 .team {
   background-color: #f5f4fa;
 }
-
-.team .section-title {
-  color: #212121;
-}
-
-.section .section-title {
-  color: #212121;
-}
-
-/*footer*/
 
 .footer {
   background-color: #2f303a;
@@ -93,12 +137,29 @@ ul {
 
 .logo-white {
   color: #ffffff;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   text-decoration: none;
 }
 .address {
   color: #ffffff;
+
+  font-size: 14px;
+  line-height: 1.17;
+  text-decoration: none;
 }
 
 .footer-address .link {
   color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: #2196f3;
 }
