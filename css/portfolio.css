@@ -1,3 +1,17 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  visibility: hidden;
+}
+
 .logo-blue {
   color: #2196f3;
 }
@@ -40,18 +54,6 @@
   color: #2196f3;
 }
 
-body {
-  font-family: Roboto, sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-h1 {
-  visibility: hidden;
-}
-
 .button {
   color: #212121;
   background-color: #f5f4fa;
@@ -69,17 +71,17 @@ h1 {
   color: #ffffff;
 }
 
-.activity-title {
+.projects-title {
   color: #212121;
 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-.activity a {
+.projects a {
   text-decoration: none;
 }
-.activity-text {
+.projects-text {
   color: #757575;
 
   font-size: 16px;

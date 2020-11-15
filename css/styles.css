@@ -18,11 +18,12 @@
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   text-decoration: none;
 }
 
 .logo-blue {
+  font-family: Raleway, sans-serif;
   color: #2196f3;
 }
 
@@ -137,6 +138,7 @@ ul {
 }
 
 .logo-white {
+  font-family: Raleway, sans-serif;
   color: #ffffff;
 
   font-weight: 700;
@@ -163,4 +165,45 @@ ul {
 .footer-address .link:hover,
 .footer-address .link:focus {
   color: #2196f3;
+}
+
+/*portfolio page */
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 6px 22px;
+  display: inline-block;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.projects-title {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.projects a {
+  text-decoration: none;
+}
+.projects-text {
+  color: #757575;
+
+  font-size: 16px;
+  line-height: 1.87;
 }
